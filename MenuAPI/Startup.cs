@@ -48,9 +48,9 @@ namespace MenuAPI
             {
                 app.UseDeveloperExceptionPage();
             }
-            app.UseDefaultFiles();
+            //app.UseDefaultFiles();
 
-            app.UseStaticFiles();
+            //app.UseStaticFiles();
 
             app.UseRouting();
 
