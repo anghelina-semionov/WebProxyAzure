@@ -6,8 +6,8 @@ on:
 env:
   AZURE_WEBAPP_NAME: menuapi-api
   AZURE_WEBAPP_PACKAGE_PATH: MenuAPI/publish
-  AZURE_WEBAPP_PUBLISH_PROFILE: ${{ secrets.menuapi_api_72fc }}
-  CONFIGURATION: Debug
+  AZURE_WEBAPP_PUBLISH_PROFILE: ${{ secrets.menuapi_api_87cc }}
+  CONFIGURATION: Release
   DOTNET_CORE_VERSION: 5.0.x
   WORKING_DIRECTORY: MenuAPI
 jobs:

@@ -20,12 +20,12 @@ namespace MenuAPI.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetAllMenuItems() //List<MenuItem>
+        public List<MenuItem> GetAllMenuItems() //List<MenuItem>
         {
             var items = _menuRepository.GetAllMenuItems();
 
-            return RedirectToAction("Index", items);
-            //return items;
+            
+            return items;
         }
         [HttpGet("{category}")]
         public List<MenuItem> GetMenuItemByCategory(String Category)

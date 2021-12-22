@@ -2,13 +2,13 @@
   "Routes": [
     {
       "DownstreamPathTemplate": "/{url}",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "https://menuapi-api.azurewebsites.net/"
+          "Host": "menuapi-api.azurewebsites.net"
         },
         {
-          "Host": "https://menu-api-rel.azurewebsites.net/"
+          "Host": "menu-api-rel.azurewebsites.net"
         }
       ],
       "UpstreamPathTemplate": "/{url}",
@@ -23,13 +23,13 @@
     },
     {
       "DownstreamPathTemplate": "/{url}",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "https://menuapi-api.azurewebsites.net/"
+          "Host": "menuapi-api.azurewebsites.net"
         },
         {
-          "Host": "localhost"
+          "Host": "menu-api-rel.azurewebsites.net"
         }
       ],
       "UpstreamPathTemplate": "/{url}",
